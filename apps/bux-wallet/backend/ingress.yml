@@ -14,10 +14,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - bux-wallet.DOMAIN_NAME_TLD
+        - bux-wallet.kschw.com
       secretName: bux-wallet-tls
   rules:
-    - host: bux-wallet.DOMAIN_NAME_TLD
+    - host: bux-wallet.kschw.com
       http:
         paths:
           - path: /api

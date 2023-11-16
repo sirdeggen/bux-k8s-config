@@ -11,10 +11,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - bux.DOMAIN_NAME_TLD
+        - bux.kschw.com
       secretName: bux-server-tls
   rules:
-    - host: bux.DOMAIN_NAME_TLD
+    - host: bux.kschw.com
       http:
         paths:
           - path: /

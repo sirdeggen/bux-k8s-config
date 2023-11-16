@@ -11,10 +11,10 @@ spec:
   ingressClassName: traefik
   tls:
     - hosts:
-        - bux-console.DOMAIN_NAME_TLD
+        - bux-console.kschw.com
       secretName: bux-console-tls
   rules:
-    - host: bux-console.DOMAIN_NAME_TLD
+    - host: bux-console.kschw.com
       http:
         paths:
           - path: /

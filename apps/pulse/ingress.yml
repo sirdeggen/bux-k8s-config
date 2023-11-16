@@ -11,10 +11,10 @@ spec:
   ingressClassName: traefik
   tls:
     - hosts:
-        - pulse.DOMAIN_NAME_TLD
+        - pulse.kschw.com
       secretName: pulse-tls
   rules:
-    - host: pulse.DOMAIN_NAME_TLD
+    - host: pulse.kschw.com
       http:
         paths:
           - path: /
